@@ -10,7 +10,8 @@ Rich JSON Documents:
 - Supports arrays and nested objects as values.
 - Allows for flexible and dynamic schemas.<br>
 <br>
-Powerful query language:
+
+Powerful query language:<br>
 - Rich and expressive query language that allows you to filter and sort by any field, no matter how nested it may be within a document.
 - Support for aggregations and other modern use-cases such as geo-based search, graph search, and text search.
 - Queries are themselves JSON, and thus easily composable. No more concatenating strings to dynamically generate SQL queries.
