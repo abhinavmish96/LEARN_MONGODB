@@ -26,3 +26,16 @@ Replica Set Name: Cluster0-shard-0
 Read Preference: Primary Preferred
 - Click "Add to Favorites" and enter M001 RS as the Favorite Name. Adding this connection as a favorite will enable you to easily connect to our class MongoDB deployment after closing and restarting Compass at some point in the future.
 - Now, click "Connect" and load the databases in the M001 class MongoDB deployment.
+
+- #### Enable Geographical Visualizations
+    - MongoDB Compass uses a 3rd party plugin for the geographical visualization of geospatial fields in your documents.
+    - If you are not able to see a map box in your Schema tab, when analyzing the coordinates field of ships.shipwrecks, you should check the option to enable geographical visualization.
+    - To do that you will have to click on the menu:<br>
+        <pre>
+        Help -> Privacy Settings</pre> 
+    - and then enable this feature.
+
+
+### Note: The Apply button in MongoDB Compass has been renamed Analyze.
+
+### For more information, check out our resources on [MongoDB Geospatial operators](https://docs.mongodb.com/manual/reference/operator/query-geospatial/).
