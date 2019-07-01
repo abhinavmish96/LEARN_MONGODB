@@ -39,3 +39,5 @@ Read Preference: Primary Preferred
 ### Note: The Apply button in MongoDB Compass has been renamed Analyze.
 
 ### For more information, check out our resources on [MongoDB Geospatial operators](https://docs.mongodb.com/manual/reference/operator/query-geospatial/).
+
+### Please review the [JSON spec](http://www.json.org/) for more detail on the data types directly supported in JSON.
