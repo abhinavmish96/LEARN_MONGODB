@@ -41,3 +41,16 @@ Read Preference: Primary Preferred
 ### For more information, check out our resources on [MongoDB Geospatial operators](https://docs.mongodb.com/manual/reference/operator/query-geospatial/).
 
 ### Please review the [JSON spec](http://www.json.org/) for more detail on the data types directly supported in JSON.
+
+# Module 2 : MongoDB Query + Atlas
+
+## This Chapter focuses on the MongoDB query and Atlas.
+
+### Topics covered in this module include:
+
+- **MongoDB Query and Shell**
+- **Connect and Use MongoDB**
+
+### MongoDB Query and Shell
+
+- 
