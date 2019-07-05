@@ -53,4 +53,7 @@ Read Preference: Primary Preferred
 
 ### MongoDB Query and Shell
 
-- 
+- Mongo Shell as it fully supports all MongoDB CRUD operations.
+- Please use the following command to connect to the class Atlas cluster. You should issue this command in the cmd shell, the OSX Terminal application, or another command-line interface of your choice.<br>
+    <pre>
+    mongo "mongodb://cluster0-shard-00-00-jxeqq.mongodb.net:27017,cluster0-shard-00-01-jxeqq.mongodb.net:27017,cluster0-shard-00-02-jxeqq.mongodb.net:27017/test?replicaSet=Cluster0-shard-0" --authenticationDatabase admin --ssl --username m001-student --password m001-mongodb-basics</pre>
