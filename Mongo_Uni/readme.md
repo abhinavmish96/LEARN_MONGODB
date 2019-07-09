@@ -71,4 +71,3 @@ username: m001-student
 password: m001-mongodb-basics
 You can create new users through Security -> Add New User.<br>
 Allow this user the privilege to Read and write to any database
-- 
