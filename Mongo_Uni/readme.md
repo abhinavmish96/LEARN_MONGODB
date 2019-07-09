@@ -49,7 +49,7 @@ Read Preference: Primary Preferred
 ### Topics covered in this module include:
 
 - **MongoDB Query and Shell**
-- **Connect and Use MongoDB**
+- **Create an Atlas Sandbox Cluster**
 
 ### MongoDB Query and Shell
 
@@ -57,3 +57,12 @@ Read Preference: Primary Preferred
 - Please use the following command to connect to the class Atlas cluster. You should issue this command in the cmd shell, the OSX Terminal application, or another command-line interface of your choice.<br>
     <pre>
     mongo "mongodb://cluster0-shard-00-00-jxeqq.mongodb.net:27017,cluster0-shard-00-01-jxeqq.mongodb.net:27017,cluster0-shard-00-02-jxeqq.mongodb.net:27017/test?replicaSet=Cluster0-shard-0" --authenticationDatabase admin --ssl --username m001-student --password m001-mongodb-basics</pre>
+
+### Create an Atlas Sandbox Cluster
+
+- If you do not have an existing Atlas account, go ahead and [create an Atlas Account](https://cloud.mongodb.com/user#/atlas/register/accountProfile) by filling in the required fields.
+- After creating a new account, you will be prompted to create the first cluster in that project
+-  Choose any cloud provider as the cloud provider, in a Region that has the label Free Tier Available
+- Set Cluster Name to Sandbox and click "Create Cluster"
+- Once you press Create Cluster, you will be redirected to the account dashboard. In this dashboard, make sure you set your project name. Go to Settings menu item and change the project name from the default
+- 
