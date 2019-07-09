@@ -1,4 +1,4 @@
-db.moviesScratch.insertMany(
+db.movieScratch.insertMany(
     [
         {
   	    "_id" : "tt0084726",
