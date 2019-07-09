@@ -65,4 +65,10 @@ Read Preference: Primary Preferred
 -  Choose any cloud provider as the cloud provider, in a Region that has the label Free Tier Available
 - Set Cluster Name to Sandbox and click "Create Cluster"
 - Once you press Create Cluster, you will be redirected to the account dashboard. In this dashboard, make sure you set your project name. Go to Settings menu item and change the project name from the default
+- Next, configure the security settings of this cluster, by enabling the IP Whitelist and MongoDB Users. Update your IP Whitelist so that your app can talk to the cluster. Click the "Security" tab from the "Clusters" page. Then click "IP Whitelist" followed by "Add IP Address". Finally, click "Allow Access from Anywhere" and click "Confirm".
+- Then create the application MongoDB database user required for this course:
+username: m001-student
+password: m001-mongodb-basics
+You can create new users through Security -> Add New User.<br>
+Allow this user the privilege to Read and write to any database
 - 
